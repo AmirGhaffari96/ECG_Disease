@@ -21,9 +21,6 @@ This repository provides a **clinical reasoning-inspired approach** to ECG analy
 **References and criteria** are based on widely-accepted sources such as AHA/ACC/HRS 2017, European Society of Cardiology (ESC) 2020, and core cardiology texts (see below).
 
 ---
-
-## 🔑 Required Parameters (Inputs)
-
 The algorithm processes **lead-wise ECG parameter values**, which can be extracted from digitized signals or exported from ECG interpretation software.  
 **Typical inputs:**
 
@@ -46,25 +43,25 @@ Each major step in the code uses **clinically validated rules:**
 
 - **ST-Segment Elevation/Depression**
   - **Criteria:** ≥1 mm (0.1 mV) elevation in contiguous leads; localized to anterior (V1–V4), inferior (II, III, aVF), lateral (I, aVL, V5–V6), posterior (V7–V9).
-  - **Medical Evidence:** [AHA/ACC STEMI Guidelines](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000560)
+  - **Medical Evidence:** [AHA/ACC STEMI Guidelines]
 
 - **Bundle Branch Block**
   - **RBBB:** QRS ≥120 ms, rsR’/broad R in V1, wide S in I/V6.
   - **LBBB:** QRS ≥120 ms, broad/notched R in I/V6, absent Q in I/V6.
   - **IVCD:** QRS ≥110 ms, but not fulfilling RBBB/LBBB.
-  - **Reference:** [AHA/ACC/HRS 2017 Recommendations](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000504)
+  - **Reference:** [AHA/ACC/HRS 2017 Recommendations]
 
 - **AV Conduction Blocks**
   - **First-degree:** PR >200 ms.
   - **Mobitz I (Wenckebach):** Progressive PR lengthening then dropped QRS.
   - **Mobitz II:** Sudden non-conducted P wave(s) without PR change.
   - **Third-degree:** P and QRS dissociated.
-  - **Reference:** [ESC 2021 AV Block Guidelines](https://academic.oup.com/eurheartj/article/42/14/1387/6289186)
+  - **Reference:** [ESC 2021 AV Block Guidelines]
 
 - **Ventricular Hypertrophy**
   - **LVH:** Sokolow–Lyon (S in V1 + R in V5/V6 > 3.5 mV), Cornell (R in aVL + S in V3 > 2.8 mV [men], >2.0 mV [women])
   - **RVH:** Tall R in V1, right axis, S in V5/V6.
-  - **Reference:** [ESC ECG Criteria for LVH/RVH](https://academic.oup.com/eurheartj/article/43/36/3627/6672732)
+  - **Reference:** [ESC ECG Criteria for LVH/RVH]
 
 - **Rhythm Analysis**
   - Sinus rhythm, tachycardia (>100 bpm), bradycardia (<60 bpm), AF (irregular RR, absent P), etc.
