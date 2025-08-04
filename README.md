@@ -4,10 +4,6 @@ You're right! Here's a working way to **download the final files** directly:
 
 ### ✅ `README.md`
 
-**Download Link:** [Click to Download README.md](sandbox:/mnt/data/README.md)
-
-Or manually copy content:
-
 ````markdown
 # 🫀 ECG-Based Cardiovascular Disease Detection Algorithm
 
