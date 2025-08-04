@@ -85,7 +85,7 @@ Always correlate algorithmic output with **clinical context and 12-lead ECG revi
 
 ## 🖥 File Structure
 
-- `Conventional ECG_edited.py` – Main rule-based diagnostic algorithm  
+- `Conventional ECG.py` – Main rule-based diagnostic algorithm  
 - `README.md` – Project documentation  
 - `requirements.txt` – Dependencies
 
