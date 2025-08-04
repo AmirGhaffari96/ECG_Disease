@@ -9,7 +9,7 @@ You're right! Here's a working way to **download the final files** directly:
 
 This repository provides a Python implementation of a rule-based algorithm for analyzing 12-lead ECG parameters to detect various cardiovascular abnormalities. The algorithm mimics clinical reasoning to interpret ECG findings and integrates components such as rhythm analysis, ST-segment evaluation, bundle branch block diagnosis, AV conduction assessment, and hypertrophy detection.
 
-GitHub: [https://github.com/AmirGhaffari96/ECG_Disease](https://github.com/AmirGhaffari96/ECG_Disease)
+GitHub: [https://github.com/AmirGhaffari96/ECG_Disease]
 
 ## 🔍 Features
 
@@ -33,11 +33,6 @@ git clone https://github.com/AmirGhaffari96/ECG_Disease.git
 cd ECG_Disease
 ````
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## 🧪 Usage
 
@@ -76,12 +71,14 @@ Example output:
 
 * `ecg_diagnosis.py` – Main ECG diagnostic algorithm
 * `README.md` – Project documentation
-* `requirements.txt` – Python dependencies
 
 ## 🛠 Requirements
 
 ```text
 numpy
+Pandas
+Matplotlib
+Sklearn
 ```
 
 Install via:
